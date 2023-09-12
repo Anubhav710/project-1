@@ -27,7 +27,7 @@ const Navbar = () => {
           95+ <br /> Years <br /> Legacy
         </div>
         <div className="bg-[#E4002B] h-20 w-20 px-4 text-white py-2  ">
-          Let's <br /> Akai
+          Let&apos;s <br /> Akai
         </div>
       </div>
     </div>

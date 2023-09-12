@@ -7,9 +7,9 @@ const Hero = () => {
     <div className="h-full w-full flex flex-col ">
       <div className="w-full h-[100vh]  pt-24 flex flex-col">
         <div className="inner-carouel flex h-[30vh] ">
-          {image.map((images) => {
+          {image.map((images, index) => {
             return (
-              <div className="flex h-[70vh] mx-10  bg-black">
+              <div className="flex h-[70vh] mx-10  bg-black" key={index}>
                 <Image src={images} width={1000} height={200} alt="image" />
               </div>
             )
@@ -21,7 +21,7 @@ const Hero = () => {
           Bring{" "}
           <div className="bg-red-500 rounded-full w-32 h-32 text-white flex justify-center items-center">
             {" "}
-            Japan's
+            Japan&apos;s
           </div>{" "}
           Finest Electronics to Your Doorstep.
         </div>
